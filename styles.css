@@ -30,8 +30,8 @@ body {
 }
 
 nav {
-  background-color: black;
-  height: 70px;
+  background-color: white;
+  height: 60px;
   color: aliceblue;
   display: flex;
   align-items: center;

@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Merriweather:ital,wght@1,900&family=Roboto&family=Roboto+Condensed:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ecdbba;
+}
+
+.load {
+  height: 4px;
+  background-color: red;
+  animation: load 1s ease-in 1;
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+  }
+
+  70% {
+    width: 60vw;
+  }
+
+  100% {
+    width: 100vw;
+  }
+}
+
+nav {
+  background-color: black;
+  height: 70px;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+li:hover {
+  color: #7dce13;
+}
+
+nav {
+  font-family: "Ubuntu", sans-serif;
+  position: sticky;
+  top: 0px;
+}
+
+.big {
+  font-size: 24px;
+}
+
+.container {
+  min-height: 70vh;
+  background-color: #0a0a09;
+  display: flex;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.bg {
+  margin-left: 23px;
+}
+
+.left {
+  width: 35vw;
+}
+.songlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  width: 35vw;
+}
+
+.bottom {
+  background-color: #0a0a09;
+
+  height: 100px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#myprogress {
+  width: 50vw;
+  cursor: pointer;
+}
+.font {
+  margin-top: 5px;
+}
+
+.font i {
+  cursor: pointer;
+  padding: 5px;
+  color: white;
+}
+
+.white {
+  color: white;
+}
+
+.texts {
+  text-align: center;
+}
+
+.isong {
+  display: flex;
+  background-color: aliceblue;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 50px;
+  margin-top: 10px;
+  /* margin-left: 25px; */
+  justify-content: space-between;
+}
+
+.sheart {
+  margin-right: 5px;
+}
+
+.audioimg {
+  margin-left: 5px;
+  border-radius: 25px;
+}
+.kka {
+  font-size: 24px;
+}
+.time {
+  font-size: 24px;
+}
+
+.gif {
+  position: absolute;
+  left: 24.5vw;
+  color: antiquewhite;
+  font-size: 24px;
+  margin-top: 15px;
+}
+
+.three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.three span i {
+  padding: 10px;
+}
+
+.songName {
+  text-align: left;
+}
+
+#song6:hover{
+  background-color: #f1f1ca;
+  cursor: pointer;
+}
